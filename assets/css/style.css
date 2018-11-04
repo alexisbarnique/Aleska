@@ -1,0 +1,92 @@
+@media (max-width: 767px){
+  div#menu{
+    display:block !important;
+  }
+  div#menu_prin{
+    display: none !important;
+  }
+}
+
+@media (max-width: 574px){
+  .logo_aleska{
+    margin-left: 5em;
+  }
+}
+
+@media (max-width: 960px){
+  div.cont-body{
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+  }
+}
+.al{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.list_mobile{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.menu_mob a{
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF;
+  transition: ease-in-out color .15s;
+  border: 2px transparent solid;
+}
+
+div.menu_mob li{
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.menu_mob a:hover {
+  font-family: 'Montserrat', sans-serif;
+  color: #FF00A4;
+  text-decoration: none;
+  border: 2px #FF00A4 solid;
+  cursor: pointer;
+}
+.menu_mob a:active {
+  font-family: 'Montserrat', sans-serif;
+  color: #FF00A4;
+  text-decoration: none;
+  border: 2px #FF00A4 solid;
+}
+
+.menu_mob label {
+  justify-content: center;
+  text-align: center;
+  margin-letf: 5px;
+  height: 20px;
+  width: auto;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px
+}
+.menu_mob label:hover{
+  cursor: pointer;
+}
+
+.btn_menu:active{
+  border-color: #FF00A4;
+}
+
+.btn_menu:focus {
+  border-color: #FF00A4;
+  outline: none;
+}
+
+*{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+.cont-body{
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-top: 0.4em;
+  background-color: #191919;
+}
