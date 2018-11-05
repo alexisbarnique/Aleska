@@ -8,7 +8,9 @@ body {
   font-weight: 400;
   font-size: 15px;
 }
-
+.uno, .dos, .tres, .cuatro{
+  margin-top: 1%;
+}
 .list_mobile{
   margin-left: 0px;
   padding-left: 0px;
