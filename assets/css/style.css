@@ -1,24 +1,7 @@
-@media (max-width: 767px){
-  div#menu{
-    display:block !important;
-  }
-  div#menu_prin{
-    display: none !important;
-  }
-}
-
-@media (max-width: 574px){
-  .logo_aleska{
-    margin-left: 5em;
-  }
-}
-
-@media (max-width: 960px){
-  div.cont-body{
-    margin-left: 0em;
-    margin-right: 0em;
-    margin-top: 0em;
-  }
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  overflow-x:hidden !important;
+  padding-bottom: 0px !important;
 }
 .al{
   font-family: 'Montserrat', sans-serif;
@@ -90,3 +73,284 @@ div.menu_mob li{
   margin-top: 0.4em;
   background-color: #191919;
 }
+/* FOOTER */
+.foo{
+  padding-top: 1%; 
+}
+/* img logo footer */
+.logo_f{
+  height: 129px;
+  width: 187px;
+  margin-left: 12%;
+}
+.mobile{
+  display: none;
+}
+.mobile2{
+  display: none;
+}
+.links{
+  margin-top: 2%;
+}
+.rs{
+  margin-top: 4%;
+}
+/* Linea del footer */
+.linea-footer{
+  background-color: grey;
+  height: 2px;
+  width: 90%; 
+}
+.ul-foo{
+  padding-left: 0px;
+}
+ul.ul-foo > li{
+  display: inline-block;
+}
+.li-foo{
+  font-size: 12px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+li.li-foo > a{
+  color: grey;
+  font-weight: 500;
+}
+li.li-foo > a:hover{
+  color: #FF00A4;
+  text-decoration: none;
+}
+ul.ul-rs{
+  padding: 0px;
+  margin-right: 5%;
+  margin-top: 6%;
+}
+ul.ul-rs > li{
+  display: inline-block;
+}
+li.li-rs > a > img{
+  height: 25px;
+  width: 100%;
+  padding-right: 12%;
+  padding-left: 12%;
+}
+/*li.li-rs > a > img:hover{
+  opacity: 0.5;
+}*/
+a.top{
+  margin-left: 10%;
+}
+a.top:hover{
+  opacity: 0.5;
+}
+.copy{
+  color: grey;
+  font-size: 12px;
+  margin-bottom: 0px;
+  padding-left: 43%;
+  margin-top: 4%;
+}
+/* FIN FOOTER */
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .logo_f{
+    height: 97px;
+    width: 140px;
+    margin-left: 23%;
+  }
+  a.top > img{
+    margin-top: 18%;
+    height: 3em;
+    margin-left: 72%;
+  }
+  .rs{
+    margin-top: 0%;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  div#menu{
+    display:block !important;
+  }
+  div#menu_prin{
+    display: none !important;
+  }
+  div.cont-body{
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+  }
+  .izq,.links{
+    display: none;
+  }
+  .mobile{
+    display: block;
+    margin-left: 46%;
+  }
+  .mobile2{
+    margin-top: 5%;
+    display: block;
+  }
+  .copy{
+    padding-left: 38%;
+  }
+  .rs{
+    margin-left: 34%;
+  }
+  a.top > img{
+    margin-top: 18%;
+    height: 3em;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  div#menu{
+    display:block !important;
+  }
+  div#menu_prin{
+    display: none !important;
+  }
+  div.cont-body{
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+  }
+  .izq,.links{
+    display: none;
+  }
+  .mobile{
+    display: block;
+    margin-left: 46%;
+  }
+  .mobile2{
+    margin-top: 5%;
+    display: block;
+  }
+  .copy{
+    padding-left: 38%;
+  }
+  .rs{
+    margin-left: 34%;
+  }
+  a.top > img{
+    margin-top: 18%;
+    height: 3em;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  div#menu{
+    display:block !important;
+  }
+  div#menu_prin{
+    display: none !important;
+  }
+  div.cont-body{
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+  }
+  .logo_aleska{
+    margin-left: 0em;
+  }
+  .izq,.links{
+    display: none;
+  }
+  .mobile{
+    display: block;
+    margin-left: 31%;
+  }
+  .mobile2{
+    margin-top: 5%;
+    display: block;
+  }
+  .copy{
+    padding-left: 38%;
+  }
+  .rs{
+    margin-left: 34%;
+  }
+  a.top > img{
+    margin-top: 18%;
+    height: 3em;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  div#menu{
+    display:block !important;
+  }
+  div#menu_prin{
+    display: none !important;
+  }
+  div.cont-body{
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+  }
+  .logo_aleska{
+    margin-left: 5em;
+  }
+  .izq,.links{
+    display: none;
+  }
+  .mobile{
+    display: block;
+    margin-left: 21%;
+  }
+  .mobile2{
+    margin-top: 5%;
+    display: block;
+  }
+  .copy{
+    padding-left: 28%;
+    margin-bottom: 4%;
+  }
+  .rs{
+    margin-left: 22%;
+  }
+  a.top > img{
+    margin-top: 47%;
+    height: 2em;
+  }
+}
+
+
+
+
+
+
+
+
+
