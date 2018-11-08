@@ -15,7 +15,10 @@ body {
   margin-left: 0px;
   padding-left: 0px;
 }
-
+.logo_aleska{
+    height: 80%;
+    margin-top: 8%;
+  }
 .menu_mob a{
   font-family: 'Montserrat', sans-serif;
   color: #FFF;
@@ -167,6 +170,10 @@ a.top:hover{
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+  .logo_aleska{
+    height: 80%;
+    margin-top: 8%;
+  }
   .logo_f{
     height: 97px;
     width: 140px;
@@ -198,6 +205,10 @@ a.top:hover{
     margin-left: 0em;
     margin-right: 0em;
     margin-top: 0em;
+  }
+  .logo_aleska{
+    height: 80%;
+    margin-top: 7%;
   }
   .izq,.links{
     display: none;
@@ -238,6 +249,10 @@ a.top:hover{
     margin-left: 0em;
     margin-right: 0em;
     margin-top: 0em;
+  }
+  .logo_aleska{
+    height: 80%;
+    margin-top: 7%;
   }
   .izq,.links{
     display: none;
@@ -281,6 +296,8 @@ a.top:hover{
   }
   .logo_aleska{
     margin-left: 0em;
+    height: 80%;
+    margin-top: 7%;
   }
   .izq,.links{
     display: none;
@@ -322,7 +339,10 @@ a.top:hover{
     margin-top: 0em;
   }
   .logo_aleska{
+    margin-top: 4%;
+    margin-bottom: 0.5%;
     margin-left: 5em;
+    height: 80%;
   }
   .izq,.links{
     display: none;
@@ -330,6 +350,7 @@ a.top:hover{
   .mobile{
     display: block;
     margin-left: 21%;
+    margin-top: 4%;
   }
   .mobile2{
     margin-top: 5%;
